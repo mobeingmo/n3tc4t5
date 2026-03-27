@@ -3,193 +3,148 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>N3TC4T5 About</title>
+<title>N3TC4T5 | Security Team</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
-<style>
-    :root {
-        --bg1: #000000;
-        --bg2: #14001f;
-        --bg3: #2a003f;
-        --card: rgba(20, 0, 40, 0.75);
-        --accent: #a855f7;
-        --text: #e5e5e5;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Consolas, monospace;
-    }
-
-    body {
-        background: linear-gradient(135deg, var(--bg1), var(--bg2), var(--bg3));
-        background-attachment: fixed;
-        color: var(--text);
-        scroll-behavior: smooth;
-    }
-
-    header {
-        padding: 2rem;
-        text-align: center;
-        background: rgba(0, 0, 0, 0.7);
-        border-bottom: 1px solid var(--accent);
-    }
-
-    header h1 {
-        color: var(--accent);
-        font-size: 2.5rem;
-    }
-
-    section {
-        padding: 4rem 2rem;
-        max-width: 900px;
-        margin: auto;
-    }
-
-    h2 {
-        margin-bottom: 2rem;
-        color: var(--accent);
-        border-left: 3px solid var(--accent);
-        padding-left: 15px;
-    }
-
-    .card {
-        background: var(--card);
-        padding: 2rem;
-        border-radius: 10px;
-        margin-bottom: 2rem;
-        border: 1px solid rgba(168, 85, 247, 0.2);
-        backdrop-filter: blur(6px);
-        transition: transform 0.2s ease;
-    }
-
-    .card:hover {
-        transform: translateY(-5px);
-    }
-
-    .members {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1rem;
-    }
-
-    .member {
-        background: var(--card);
-        padding: 1rem;
-        border-radius: 10px;
-        text-align: center;
-        border: 1px solid rgba(168, 85, 247, 0.2);
-    }
-
-    .social-line {
-        margin-top: 1rem;
-        font-size: 0.95rem;
-        text-align: center;
-        border-top: 1px solid rgba(168, 85, 247, 0.3);
-        padding-top: 1rem;
-    }
-
-    .social-line a {
-        color: var(--accent);
-        text-decoration: none;
-        margin: 0 10px;
-        transition: opacity 0.2s ease;
-    }
-
-    .social-line a:hover {
-        opacity: 0.7;
-    }
-
-    footer {
-        text-align: center;
-        padding: 2rem;
-        font-size: 0.9rem;
-        color: #888;
-    }
-</style>
-
 
 </head>
 
 <body>
 
-<header>
-    <h1>N3TC4T5</h1>
-    <p>The cybersecurity team</p>
-</header>
+<nav>
+    <div class="logo">
+        <img src="images/logo.png" alt="logo">
+        <span>N3TC4T5</span>
+        </div><ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#members">Members</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 
-<section id="about">
-    <h2>About Us</h2>
-    <div class="card">
-        <p>
-            N3TC4T5 is a competitive cybersecurity team formed
-            in American Digital Schools 
-            focused on offensive security, Digital Forensics,
-            cryptography, reverse engineering, web exploitation, and binary analysis.
-        </p>
-    </div>
+<section class="hero" id="home">
+<h1>Oops! Got Your <span>Packets</span> :) </h1>
+<p>
+N3TC4T5 is a cybersecurity team formed at American Digital School. We focus on offensive security, reverse engineering, and vulnerability research.</p>
+
+<a href="#members" class="btn">Meet the Team</a>
 </section>
 
-<section id="description">
-    <h2>Description</h2>
-    <div class="card">
-        <p>
-            We are a team with the the goal of 
-            winning and participating in 
-            a lot of CTFs and Hackathons. 
-        </p>
-    </div>
+<section class="section" id="members">
+<h2>Team Members</h2>
+
+<div class="grid">
+
+<div class="card">
+<div class="avatar">
+<img src="images/motwo.jpg">
+</div>
+<h3>gl1tt3rpuff0</h3>
+<div class="role">Team Lead</div>
+<div class="skills">Crypto || Forensics || MISC || PWN || OSINT</div>
+<a  class="linkedin-btn" href="https://www.linkedin.com/in/mohammad-alshkibi-19589125b/">Linkedin</a>
+</div>
+
+<div class="card">
+<div class="avatar">
+<img src="images/mod.png">
+</div>
+<h3>Rama Mansour</h3>
+<div class="role">Tracker</div>
+<div class="skills">OSINT || Crpyto</div>
+<a  class="linkedin-btn" href="https://www.linkedin.com/">Linkedin</a>
+</div>
+
+<div class="card">
+<div class="avatar">
+<img src="images/mod.png">
+</div>
+<h3>Unassigned</h3>
+<div class="role"> XXXX </div>
+<div class="skills">xxxx || xxxx || xxxx</div>
+<a  class="linkedin-btn" href="https://www.linkedin.com/">Linkedin</a>
+</div>
+
+<div class="card">
+<div class="avatar">
+<img src="images/mod.png">
+</div>
+<h3>Unassigned</h3>
+<div class="role"> XXXX </div>
+<div class="skills">xxxx || xxxx || xxxx</div>
+<a  class="linkedin-btn" href="https://www.linkedin.com/">Linkedin</a>
+</div>
+
+</div>
 </section>
 
-<section id="members">
-    <h2>Team Members</h2>
-    <div class="members" id="memberList">
+<section class="section" id="contact">
+<h2>Contact</h2>
+
+<div class="contact-box">
+
+<form id="contactForm">
+
+<label>Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Message</label>
+<textarea required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+<section class="section social">
+    <h2>Connect With Us</h2>
+    
+    <div class="social-links">
+    
+    <a href="https://discord.gg/qZKVUBfxRN" target="_blank" class="social-icon">
+    <img src="images/Discord.png" alt="Discord">
+    </a>
+    
+    <a href="https://ctftime.org/team/425193" target="_blank" class="social-icon">
+    <img src="images/CTFtime.png" alt="CTFtime">
+    </a>
+    
     </div>
-</section>
-
-<section id="socials">
-    <div class="social-container">
-        <div class="social-text">Join Our Socials!!</div>
-
-        <div class="social-line">
-            <a href="https://discord.gg/qZKVUBfxRN" target="_blank"><img src="images/Discord.png" alt="Discord" class="social-icon"></a>
-            <a href="https://ctftime.org/team/425193" target="_blank"><img src="images/CTFtime.png" alt="CTFtime" class="social-icon"></a>
-            </div>
-    </div>
-</section>
-
-
+    
+    </section>
 <footer>
-    © 2026 N3TC4T5 All rights reserved
+© 2026 N3TC4T5 Security Team
 </footer>
-
 <script>
-    const members = [
-        { name: "mo", role: "Crypto / Forensics / MISC / PWN / OSINT" },
-        { name: "Member2", role: "Role / Role" },
-        { name: "Member3", role: "Role / Role" },
-        { name: "Member4", role: "Role / Role" }
-    ];
 
-    const container = document.getElementById("memberList");
-
-    members.forEach(member => {
-        const div = document.createElement("div");
-        div.className = "member";
-        div.innerHTML = `
-            <h3>${member.name}</h3>
-            <p>${member.role}</p>
-        `;
-        container.appendChild(div);
+    const cards = document.querySelectorAll(".card");
+    
+    window.addEventListener("scroll", () => {
+    
+    cards.forEach(card => {
+    
+    const cardTop = card.getBoundingClientRect().top;
+    
+    if(cardTop < window.innerHeight - 80){
+    card.classList.add("show");
+    }
+    
     });
-
-    console.log("N3TC4T5 site live.");
+    
+    });
+    
+    </script>
+<script>
+document.getElementById("contactForm").addEventListener("submit",function(e){
+e.preventDefault();
+alert("Message sent.");
+this.reset();
+});
 </script>
 
 </body>
 </html>
-
-
-
